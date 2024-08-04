@@ -1,0 +1,27 @@
+.createtrippage{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(../../../public/images/createtripBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.h2class{
+    text-align: center;
+    color: white;
+}
+.createtripclass{
+    width: 40%;
+}
+
+.createtriplabel{
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.inputwidtrip{
+    opacity: 75%;
+}

@@ -1,0 +1,41 @@
+.profileclass{
+    border: solid;
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    color: grey;
+    border-radius: 20px;
+}
+.profilepage{
+    display: flex;
+    justify-content: center;
+
+}
+.profileh1{
+    text-align: center;
+    color: white;
+
+}
+.profileh5s{
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
+.profilepage{
+    padding: 30px;
+    background-image: url(../../../public/images/profileBG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profilepic{
+    text-align: center;
+    padding: 10px;
+
+}
+
+.profileimg{
+    border-radius: 100px;
+}

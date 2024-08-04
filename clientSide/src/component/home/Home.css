@@ -1,0 +1,804 @@
+body{
+  overflow-x: hidden;
+}
+
+/* first page */
+.homepage{
+    /* background-image: url(../../../public/images/homeBG.jpg); */
+    background-image: url(../../../public/images/ocean.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+.homediv{
+    text-align: center;
+    border:  solid;
+    width: 600px;
+    padding: 50px;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+
+.seconddiv{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    height: auto;
+}
+ 
+/* second page */
+
+  .imgsize2{
+    border-radius:150px ;
+    height: 240px;
+    width: 158px;
+    border: solid 5px white;
+  }
+
+  .imgrow{
+    padding: 50px 20px 50px 20px;
+  
+  }
+
+  .readmorebutton{
+    color:white;
+    background-color: green;
+    border: none;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+    font-weight: bold;
+  }
+
+  
+  .alignimage{
+    background-image: url(../../../public/images/tripgang.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 470px;
+    border-radius: 200px;
+    padding-top: 330px;
+    padding-left: 170px;
+  }
+
+
+
+.imgstyle{
+display: flex;
+justify-content: center;
+}
+
+
+@media(max-width:870px){
+  .imgrow{
+ flex-direction: column;
+  }
+  .textstyle{
+    padding-top: 110px;
+  }
+}
+ 
+@media(max-width:390px){
+  .imgstyle{
+flex: none;
+justify-content: left;
+  }
+}
+
+
+/* third page */
+ 
+.distext{
+  padding-left: 60px;
+
+}
+
+.disstart{
+  color: green;
+}
+
+.disrow{
+  padding: 10px;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.carddis1 {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+
+.carddis1::before,
+.carddis1::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+}
+
+.carddis1::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.carddis1::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.carddis1:hover::before,
+.carddis1:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+
+}
+
+.carddis1:hover:after {
+  content: "PORTUGAL";
+  color: white;
+}
+
+.carddis2 {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+
+.carddis2::before,
+.carddis2::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+}
+
+.carddis2::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.carddis2::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.carddis2:hover::before,
+.carddis2:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+
+}
+
+.carddis2:hover:after {
+  content: "SWITZERLAND";
+  color: white;
+}
+
+
+.carddis3 {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+
+.carddis3::before,
+.carddis3::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+}
+
+.carddis3::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.carddis3::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.carddis3:hover::before,
+.carddis3:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+
+}
+
+.carddis3:hover:after {
+  content: "POLAND";
+  color: white;
+}
+
+
+.carddis4 {
+  position: relative;
+  width: 220px;
+  height: 320px;
+  background: mediumturquoise;
+  display: flex;
+  align-items: center;
+   justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+}
+
+.carddis4::before,
+.carddis4::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: lightblue;
+  transition: all 0.5s;
+}
+
+.carddis4::before {
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 0 100%;
+
+}
+
+.carddis4::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100%  0 15px;
+
+}
+
+.carddis4:hover::before,
+.carddis4:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+
+}
+
+.carddis4:hover:after {
+  content: "ARGENTINA";
+  color: white;
+}
+
+/* fouth page */
+
+.populardest{
+  padding-top: 80px;
+  text-align: center;
+}
+
+.textpop{
+  font-size: 40px;
+  padding: 20px;
+}
+.spanpop{
+  color: greenyellow;
+}
+
+.poprowstart{
+  display: grid;
+  grid-template-columns:150px 150px 180px 180px ;
+  grid-template-rows: 200px 200px;
+  justify-content: center;
+  padding: 30px;
+  gap: 10px;
+  width: auto;
+}
+
+.one{
+display: grid;
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 3;
+background-image: url(../../../public/images/europe.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+
+.two{
+  display: grid;
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-image: url(../../../public/images/asia.jpeg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ 
+}
+.three{
+  background-image: url(../../../public/images/america.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.four{
+  background-image: url(../../../public/images/africa.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+}
+
+@media (max-width: 768px) {
+  .poprowstart {
+    grid-template-columns: 150px 150px; 
+    grid-template-rows: repeat(5, 200px); 
+  }
+
+  .one {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .two, .three, .four {
+    grid-column: span 2; 
+  }
+}
+
+@media (max-width: 480px) {
+  .poprowstart {
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(5, 200px); 
+  }
+
+  .one, .two, .three, .four {
+    grid-column: span 1; 
+  }
+}
+
+.europe{
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  text-shadow: 1px 2px greenyellow;
+  color: white;
+}
+
+.asia{
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  text-shadow: 1px 2px greenyellow;
+  color: white;
+}
+
+.america{
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  text-shadow: 1px 2px greenyellow;
+  color: white;
+}
+
+.africa{
+  font-size: large;
+  font-weight: bold;
+  padding: 10px;
+  text-shadow: 1px 2px greenyellow;
+  color: white;
+}
+
+/* fifth page */
+
+.topdes{
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.Topbox{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  row-gap: 40px;
+ 
+}
+
+.italy,.australia,.england,.us{
+  text-align: center;
+ font-weight: 700;
+ position: relative;
+
+}
+
+.z-indexitaly{
+  color: white;    
+font-weight: 700;
+background-color: black;
+opacity: 50%;
+z-index: 1;
+position: absolute;
+width: 100%;
+bottom: 0px;
+height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+/* .placename{
+opacity: 100%;
+} */
+.placename:hover ~ .z-indexitaly{
+  opacity: 100%;
+}
+
+
+
+/* sixth page */
+.plans{
+  text-align: center;
+  padding: 80px 50px 50px 50px;
+}
+
+
+.planimage{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.soloimg1,.soloimg2,.soloimg3{
+  text-align: center;
+}
+
+.letsplan{
+  padding: 20px 15px 15px 15px;
+  text-align: center;
+}
+
+.planbut{
+  background-color: rgb(8, 92, 8);
+  color: white;
+  border: none;
+  padding: 10px 20px 10px 20px;
+
+}
+
+/* seventh page */
+
+.feedbackpage{
+  padding: 80px 50px 50px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+
+}
+
+@media(max-width:380px){
+  .feedbackpage{
+    padding: 10px;
+  }
+}
+
+.cardd {
+  width: 300px;
+  background: #fff;
+  box-shadow: 12px 12px 0px rgb(4, 15, 4);
+  transition: transform 0.3s, box-shadow 0.9s;
+  border-radius: 10px;
+}
+
+.cardd:hover {
+  transform: translate(-5px, -5px);
+  box-shadow: 15px 15px 0 rgb(246, 246, 246);
+}
+
+.cardimg{
+  border-radius: 10px;
+}
+
+/* .smallimg{
+  position: absolute;
+  top: 310px;
+  right: 380px;
+  border-radius: 50px;
+} */
+
+@media(max-width:450px){
+  .fdbk{
+display: flex;
+flex-wrap: wrap;
+  }
+}
+
+.fdbkstart{
+  height: auto;
+}
+
+.fdbk{
+  border: solid 1px;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.reviewimg{
+  border-radius: 100px;
+}
+
+.spanquat{
+  color: green;
+  font-size: 20px;
+  font-weight:bolder;
+}
+
+
+
+
+
+
+
+.wrapper {
+  display: inline-flex;
+  list-style: none;
+  height: 120px;
+  width: 100%;
+  padding-top: 10px;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+}
+
+.wrapper .icon {
+  position: relative;
+  background: #f6f7f7;
+  border-radius: 50%;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #fff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper svg {
+  fill: green;
+}
+
+.wrapper span:hover,
+.wrapper svg:hover,
+.wrapper .black:hover,
+.wrapper .black:hover .tooltip,
+.wrapper .black:hover .tooltip::before {
+  background: #222;
+  color: white;
+  fill: white;
+}
+
+/* eighth page */
+
+.getincontainer{
+  padding: 0%;
+  padding-bottom: 100px;
+}
+
+.getinpage{
+  background-image: url(../../../public/images/travel.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  background-position-y: bottom;
+  
+}
+
+.getinclass{
+  display: flex;
+  justify-content:end;
+  padding: 240px 100px 70px 100px;
+
+}
+
+@media(max-width:576px){
+  .getinclass{
+  padding: 240px 100px 70px 100px;
+  margin-top: 50px;
+
+  }
+}
+
+@media(max-width:463px){
+  .getinclass{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media(max-width:941px){
+  .gettext{
+    margin-top: 150px;
+  }
+}
+
+.getintouch{
+  border: solid;
+  padding: 30px;
+  height: 380px;
+  background-color: black;
+
+}
+
+
+.getinput1{
+  margin-right: 10px;
+ border: none;
+ border-bottom: 2px solid white;
+ background-color: black;
+
+}
+.getinput2{
+ border: none;
+ background-color: black;
+ border-bottom: 2px solid white;
+
+}
+
+.getinput3{
+  width: 91%;
+  border: none;
+  border-bottom: 2px solid white;
+ background-color: black;
+
+}
+
+.getbutton{
+  padding-top: 30px;
+}
+
+.getbutt{
+  padding: 5px 35px 5px 35px;
+  background-color: black;
+  color: white;
+  border: solid white;
+}
+::placeholder{
+  color: white;
+}
+.geth3{
+  color: white;
+}
+
+.gettext{
+  padding: 50px 30px 50px 40px;
+  font-size: large;
+  width: 45%;
+}
+
+/* nineth page */
+

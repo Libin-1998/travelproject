@@ -1,0 +1,13 @@
+.editpage{
+    padding: 0%;
+}
+.editform{
+    display: flex;
+    justify-content: center;
+}
+.editclass{
+    width: 50%;
+}
+.editpagebutton{
+    text-align: center;
+}

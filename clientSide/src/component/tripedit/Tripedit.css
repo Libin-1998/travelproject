@@ -1,0 +1,16 @@
+.h1trip{
+    text-align: center;
+}
+
+.edittripform{
+    display: flex;
+    justify-content: center;
+}
+.edittripclass{
+    width: 50%;
+}
+
+.edittrippagebutton{
+    text-align: center;
+    margin-bottom: 5px;
+}

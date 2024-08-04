@@ -1,0 +1,129 @@
+.aboutpage{
+    background-color: #467c7e;
+    color: white;
+
+}
+
+.abouthead{
+    text-align: center;
+    padding: 50px;
+}
+
+.aboutrow{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 40px;
+}
+
+
+.aboutcol1{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.aboutcol2{
+    font-weight: bold;
+    width: 60%;
+    font-size: larger;
+}
+
+.aboutsub{
+    text-align: center;
+}
+
+.contact {
+    position: fixed;
+    top: 45%;
+    left: 0;
+    height: 200px;
+    padding-left: 10px;
+  }
+
+
+.aboutcard{
+    font-size:xx-large;
+}
+
+/* .aboutsocial-link1,.aboutsocial-link2,.aboutsocial-link3,.aboutsocial-link4{
+    background-color: black;
+
+} */
+
+  /* .aboutcard {
+    display: flex;
+    height: 70px;
+    width: 270px;
+  }
+  
+  .aboutcard svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  .aboutcard .aboutsocial-link1,.aboutcard .aboutsocial-link2,.aboutcard .aboutsocial-link3,.aboutcard .aboutsocial-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+  }
+  
+  .aboutcard svg {
+    transform: scale(1);
+  }
+  
+  .aboutcard .aboutsocial-link1:hover {
+    background-color: #1a1e22;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .aboutcard .aboutsocial-link2:hover {
+    background-color: #0a66c2;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .aboutcard .aboutsocial-link3:hover {
+    background-color: #0059f7;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  .aboutcard .aboutsocial-link4:hover {
+    background-color: #1d4292;
+    animation: bounce_613 0.4s linear;
+  }
+  
+  @keyframes bounce_613 {
+    40% {
+      transform: scale(1.4);
+    }
+  
+    60% {
+      transform: scale(0.8);
+    }
+  
+    80% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+ */

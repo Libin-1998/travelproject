@@ -1,0 +1,42 @@
+.createDespage{
+    display: flex;
+    justify-content: center;
+    background-image: url(../../../public/images/getin.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.Desforms{
+    width: 40%;
+}
+
+.Desh2{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.Desbuttonsubmit{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 20px ;
+}
+
+.Desbutsubmit{
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.inputwidspot{
+opacity: 50%;
+}
+
+.createdes{
+    font-size: larger;
+    font-weight: bold;
+    color: white;
+}

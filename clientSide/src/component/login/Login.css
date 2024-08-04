@@ -1,0 +1,55 @@
+.loginpage{
+    background-image: url(../../../public/images/logBG.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px 80px 0px;
+
+}
+.loginclass{
+    /* border: solid; */
+    text-align: center;
+    width: 400px;
+    height: 440px;
+    opacity: 80%;
+    background-color: white;
+    border-radius: 30px;
+  
+}
+.logbox{
+    padding: 50px;
+}
+
+.loghead{
+    padding-top: 50px;
+}
+
+
+
+.logbutt{
+    font-size: 16px;
+    padding: 0.6em 3em;
+    /* background-color: #000; */
+    border: 3px solid rgb(85, 201, 190);
+    border-radius: 1em;
+    /* color: #fff; */
+    color: black;
+    font-weight: bolder;
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+    box-shadow: -5px 5px 0px 0px rgb(85, 201, 190);
+  }
+  
+  .logbutt:hover {
+    transform: translate(5px, -5px);
+  }
+
+  .logquestion{
+    padding-top: 20px;
+    color: black;
+  }
+
+.loglinkline{
+    text-decoration: none;
+}

@@ -1,0 +1,42 @@
+.createblogpage{
+    display: flex;
+    justify-content: center;
+    background-image: url(../../../public/images/blogBG3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+  
+}
+
+.forms{
+    width: 40%;
+    padding: 30px;
+}
+
+.bloglabel{
+    font-weight: bold;
+    color: rgb(245, 242, 242);
+}
+
+
+
+.buttonsubmit{
+    text-align: center;
+}
+.butsubmit{
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(6, 173, 245);
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.classh2{
+    text-align: center;
+}
+
+.inputwid{
+    opacity: 50%;
+}
