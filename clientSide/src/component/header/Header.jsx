@@ -62,12 +62,13 @@ export default function Header() {
                   <Nav.Link href="/trip" className="navcolor">
                     TRIPS
                   </Nav.Link>
-                  <Nav.Link href="/about" className="navcolor">
-                    ABOUT
-                  </Nav.Link>
                  
                   <Nav.Link href="/viewblog" className="navcolor">
                     BLOG
+                  </Nav.Link>
+
+                  <Nav.Link href="/about" className="navcolor">
+                    ABOUT
                   </Nav.Link>
                 
 
