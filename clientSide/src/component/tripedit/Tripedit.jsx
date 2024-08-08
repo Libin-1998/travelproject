@@ -18,7 +18,7 @@ export default function Tripedit() {
     const {id}=useParams()
 
     useEffect(()=>{
-        axios.get(`http://localhost:1515/api/trip/singleview/${id}`,{
+        axios.get(`https://travelproject-2.onrender.com/api/trip/singleview/${id}`,{
             headers:{Authorization:`Bearer ${token}`},
         })
         .then((response)=>{
@@ -51,7 +51,7 @@ const handleSubmit=(event)=>{
     datas.append('price',data.price)
     datas.append('image',data.image)
 
-    axios.put(`http://localhost:1515/api/trip/update/${id}`,datas,{
+    axios.put(`https://travelproject-2.onrender.com/api/trip/update/${id}`,datas,{
         headers:{Authorization:`Bearer ${token}`},
     })
     .then((response)=>{

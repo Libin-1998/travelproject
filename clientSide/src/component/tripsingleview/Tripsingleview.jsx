@@ -18,7 +18,7 @@ export default function Tripsingleview() {
 
 
   useEffect(()=>{
-    axios.get(`http://localhost:1515/api/trip/singleview/${id}`,{
+    axios.get(`https://travelproject-2.onrender.com/api/trip/singleview/${id}`,{
 headers:{authorization:`Bearer ${token}`},
     })
     .then((response)=>{
@@ -32,7 +32,7 @@ headers:{authorization:`Bearer ${token}`},
   },[])
 
   const deleteData=(id)=>{
-    axios.delete(`http://localhost:1515/api/trip/delete${id}`)
+    axios.delete(`https://travelproject-2.onrender.com/api/trip/delete${id}`)
     .then((response)=>{
         console.log(response.data.message);
     })

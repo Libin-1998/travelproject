@@ -11,7 +11,7 @@ export default function Profile() {
 
 
 useEffect(()=>{
-    axios.get(`http://localhost:1515/api/auths/profile/${id}`)
+    axios.get(`https://travelproject-2.onrender.com/api/auths/profile/${id}`)
     .then((response)=>{
 console.log(response);
 setlist(response.data.data[0])

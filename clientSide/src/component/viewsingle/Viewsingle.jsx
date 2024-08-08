@@ -21,7 +21,7 @@ export default function Viewsingle() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:1515/api/blog/singleview/${id}`,{
+      .get(`https://travelproject-2.onrender.com/api/blog/singleview/${id}`,{
         headers:{Authorization:`Bearer ${token}`},
       }
 
@@ -38,7 +38,7 @@ export default function Viewsingle() {
 
   const deleteData = (id) => {
     axios
-      .delete(`http://localhost:1515/api/blog/delete/${id}`)
+      .delete(`https://travelproject-2.onrender.com/api/blog/delete/${id}`)
       .then((response) => {
         console.log(response);
         toast.success(response.data.message);

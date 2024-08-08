@@ -32,7 +32,7 @@ event.preventDefault();
     datas.append("image", data.image);
 
     axios
-      .post("http://localhost:1515/api/blog/addData", datas,{
+      .post("https://travelproject-2.onrender.com/api/blog/addData", datas,{
         headers:{Authorization:`Bearer ${token}`},
       })
       .then((response) => {

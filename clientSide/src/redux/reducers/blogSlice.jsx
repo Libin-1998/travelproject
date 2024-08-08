@@ -10,7 +10,7 @@ const initialState={
 const token = sessionStorage.getItem("token");
 
 export const getBlog=createAsyncThunk('blog/get',async()=>{
-const datas=await axios.get('http://localhost:1515/api/blog/viewData',{
+const datas=await axios.get('https://travelproject-2.onrender.com/api/blog/viewData',{
     headers:{Authorization:`Bearer ${token}`},
 
 }) 

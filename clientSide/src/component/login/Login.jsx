@@ -22,7 +22,7 @@ const navigate=useNavigate()
 
 const handleSubmit=(event)=>{
   event.preventDefault()
-  axios.post('http://localhost:1515/api/auths/login',data)
+  axios.post('https://travelproject-2.onrender.com/api/auths/login',data)
   .then((response)=>{
     console.log(response);
     toast.success(response.data.message)

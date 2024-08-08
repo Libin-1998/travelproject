@@ -14,7 +14,7 @@ export default function Destination() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:1515/api/dest/viewdata", {
+      .get("https://travelproject-2.onrender.com/api/dest/viewdata", {
         headers: { Authorization: `Bearer ${tokens}` },
       })
       .then((response) => {

@@ -35,7 +35,7 @@ export default function Createtrip() {
     console.log(formData);
 
     axios
-      .post("http://localhost:1515/api/trip/addtrip", formData, {
+      .post("https://travelproject-2.onrender.com/api/trip/addtrip", formData, {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((response) => {

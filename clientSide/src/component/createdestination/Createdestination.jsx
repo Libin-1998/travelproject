@@ -33,7 +33,7 @@ export default function Createdestination() {
         formdata.append('country',data.country)
         formdata.append('image',data.image)
 
-        axios.post('http://localhost:1515/api/dest/adddata',formdata,{
+        axios.post('https://travelproject-2.onrender.com/api/dest/adddata',formdata,{
             headers:{Authorization:`Bearer ${tokens}`},
         })
         .then((response)=>{

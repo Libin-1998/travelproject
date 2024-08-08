@@ -18,7 +18,7 @@ export default function Register() {
   const handleSubmit = (event) => {
     event.preventDefault();
     axios
-      .post("http://localhost:1515/api/auths/register", data)
+      .post("https://travelproject-2.onrender.com/api/auths/register", data)
       .then((response) => {
         console.log(response);
         toast.success(response.data.message);

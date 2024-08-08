@@ -19,7 +19,7 @@ export default function Editblog() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:1515/api/blog/singleview/${id}`, {
+      .get(`https://travelproject-2.onrender.com/api/blog/singleview/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((response) => {
@@ -53,7 +53,7 @@ export default function Editblog() {
     formData.append('image',values.image)
 
     axios
-      .put(`http://localhost:1515/api/blog/update/${id}`, formData, {
+      .put(`https://travelproject-2.onrender.com/api/blog/update/${id}`, formData, {
         headers: { Authorization: `Bearer ${token}` },
       })
       .then((response) => {
