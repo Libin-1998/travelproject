@@ -32,8 +32,6 @@ export default function Createtrip() {
     formData.append("price", data.price);
     formData.append("image", data.image);
 
-    console.log(formData);
-
     axios
       .post("https://travelproject-2.onrender.com/api/trip/addtrip", formData, {
         headers: { Authorization: `Bearer ${token}` },
