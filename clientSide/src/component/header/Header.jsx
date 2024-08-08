@@ -67,11 +67,6 @@ export default function Header() {
                     BLOG
                   </Nav.Link>
 
-                  <Nav.Link href="/about" className="navcolor">
-                    ABOUT
-                  </Nav.Link>
-                
-
                   {loggedIn == "admin" ? (
                     <>
                      
@@ -88,6 +83,10 @@ export default function Header() {
  <Nav.Link href="/createblog" className="navcolor">
                         CREATE BLOG
                       </Nav.Link>
+
+                      <Nav.Link href="/about" className="navcolor">
+                    ABOUT
+                  </Nav.Link>
 
                       <Nav.Link href="/profile" className="navcolor">
                     PROFILE
@@ -108,12 +107,12 @@ export default function Header() {
                     TRIPS
                   </Nav.Link>
 
-                  <Nav.Link href="/about" className="navcolor">
-                    ABOUT
-                  </Nav.Link>
-
                   <Nav.Link href="/viewblog" className="navcolor">
                     BLOG
+                  </Nav.Link>
+
+                  <Nav.Link href="/about" className="navcolor">
+                    ABOUT
                   </Nav.Link>
                  
                   <Nav.Link href="/register" className="navcolor">
