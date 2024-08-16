@@ -431,7 +431,6 @@ export default function Home() {
             />
             <br />
             <br />
-            <br />
             <input
               type="text"
               placeholder="Your Message"

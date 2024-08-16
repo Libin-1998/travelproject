@@ -749,7 +749,7 @@ flex-wrap: wrap;
 .getintouch{
   border: solid;
   padding: 30px;
-  height: 380px;
+  height: auto;
   background-color: black;
 
 }
@@ -770,7 +770,7 @@ flex-wrap: wrap;
 }
 
 .getinput3{
-  width: 91%;
+  width: 100%;
   border: none;
   border-bottom: 2px solid white;
  background-color: black;
@@ -779,6 +779,7 @@ flex-wrap: wrap;
 
 .getbutton{
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .getbutt{
@@ -798,6 +799,15 @@ flex-wrap: wrap;
   padding: 50px 30px 50px 40px;
   font-size: large;
   width: 45%;
+}
+@media(max-width:644px){
+  .getinput2{
+    padding-top: 30px;
+    width: 100%;
+  }
+  .getinput1{
+    width: 100%;
+  }
 }
 
 /* nineth page */

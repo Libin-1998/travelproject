@@ -1,4 +1,3 @@
-
 .parent{
   display: flex;
   gap: 8px;
@@ -125,3 +124,12 @@ justify-content: center;
   text-decoration: none;
 }
 
+@media(max-width:680px){
+  .divtwo{
+    text-align: center;
+  }
+}
+
+.triprow{
+  padding: 10px;
+}
