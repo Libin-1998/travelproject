@@ -38,6 +38,8 @@ setTimeout(() => {
   navigate('/login')
 }, 2000);
   }
+
+  
   useEffect(() => {
     dispatch(getPackage());
   }, []);

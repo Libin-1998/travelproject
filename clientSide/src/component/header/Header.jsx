@@ -100,7 +100,7 @@ export default function Header() {
                   <Nav.Link href="/" className="navcolor">
                     HOME
                   </Nav.Link>
-                  <Nav.Link href="destination" className="navcolor">
+                  <Nav.Link href="/destination" className="navcolor">
                     DESTINATIONS
                   </Nav.Link>
                   <Nav.Link href="/trip" className="navcolor">

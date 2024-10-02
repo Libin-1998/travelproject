@@ -5,6 +5,7 @@ import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
 
 export default function Editblog() {
+    
   const navigate = useNavigate();
   const token = sessionStorage.getItem("token");
   console.log(token);
@@ -26,6 +27,7 @@ export default function Editblog() {
         console.log(response);
         setValues(response.data.data);
       })
+
       .catch((error) => {
         console.log(error);
       });
